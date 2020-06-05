@@ -31,4 +31,4 @@ done
 echo "[+] building and deploying documentation website"
 git config credential.helper "store --file=.git/credentials"
 echo "https://${PLUGIN_TOKEN}:@github.com" > .git/credentials
-mkdocs gh-deploy
+mkdocs gh-deploy --force
