@@ -21,7 +21,7 @@ Use with drone:
 
 ```yml
 steps:
-  - name: Pushish documentation 
+  - name: Publish documentation 
     image: thehiveproject/mkdocs
     settings:
       - token: { from_secret: github_token }
