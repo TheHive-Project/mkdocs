@@ -13,3 +13,19 @@ The program can be run using command line. A Github token is required to publish
     -t, --token         Token to upload
     -h, --help          This message
 ```
+
+
+## Trigger
+
+Use with drone:
+
+```yml
+steps:
+  - name: Pushish documentation 
+    image: thehiveproject/mkdocs
+    settings:
+      - token: { from_secret: github_token }
+    when:
+      branch:
+      - master
+```
