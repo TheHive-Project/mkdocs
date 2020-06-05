@@ -8,4 +8,4 @@ RUN apt update              &&\
 
 COPY mkdocs_deploy.sh /usr/local/bin
 
-ENTRYPOINT [ "/usr/local/bin/mkdocs_deploy.sh" ]
+ENTRYPOINT [ "/usr/local/bin/mkdocs_deploy.sh" ] 

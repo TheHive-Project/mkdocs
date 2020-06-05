@@ -6,7 +6,7 @@ The program can be run using command line. A Github token is required to publish
 
 
 ```
-> bash mkdocs_deploy.sh -h
+./mkdocs_deploy.sh -h
   mkdocs deploy to a remote repository
   Udate: mkdocs_deploy.sh [OPTION...]
   Arguments:
